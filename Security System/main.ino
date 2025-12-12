@@ -78,7 +78,7 @@ void checkPassword() {
   
   if (input_password == password) {
     lcd.setCursor(0, 0);
-    lcd.print("WELCOME");
+    lcd.print("ACCESS GRANTED");
 
     // Open door
     doorServo.write(90);
